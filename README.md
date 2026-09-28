@@ -9,6 +9,7 @@ You must install the following requirements:
  * A c compiler: `gcc` or `clang`
  * `gdb`
  * `make`
+
 Use `make` to build the binary.
 
 As root (or using sudo), run the `load.sh` script before starting the game.

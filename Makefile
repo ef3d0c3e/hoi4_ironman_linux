@@ -1,6 +1,6 @@
 NAME := ironman.so
 CC ?= gcc
-CFLAGS := -Wall -Wextra -Werror -Wconversion -fpic --no-gnu-unique -shared
+CFLAGS := -Wall -Wextra -Werror -Wconversion -fpic -shared
 
 SOURCES := ironman.c
 

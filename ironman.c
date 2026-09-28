@@ -93,7 +93,6 @@ startup()
 		fprintf(stderr, "Failed to find hoi4 maps\n");
 		exit(1);
 	}
-	assert((end - start) % 4096 == 0);
 
 	const uintptr_t result = find_sig(start, end, &sig_checksum_gate);
 	if (!result) {

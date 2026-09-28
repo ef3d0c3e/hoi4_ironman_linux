@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-filename=$(realpath "lib.so")
+filename=$(realpath "ironman.so")
 [ ! -f "${filename}" ] && echo "${filename} not found" && exit 1
 
 pid=$(pidof hoi4)
